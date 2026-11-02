@@ -1,0 +1,39 @@
+# Build products
+/build/
+/build-*/
+/*.elf
+*.o
+*.a
+
+# Local copies of upstream projects used for research and comparison.
+# Upstream projects and their licences are linked from README.md and NOTICE.md.
+/reference/
+
+# Local analysis output
+graphify-out/
+**/graphify-out/
+
+# Logs and captures copied from a console
+*.log
+*.csv
+receiver.port
+receiver.lock
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.mobileprovision
+id_rsa
+id_ed25519
+
+# Editors and operating systems
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*~
